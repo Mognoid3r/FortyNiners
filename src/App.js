@@ -1,6 +1,6 @@
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
-import Plans from './components/Plans/Plans';
+// import Plans from './components/Plans/Plans';
 import Programs from './components/Programs/Programs';
 import WhyUs from './components/WhyUs/WhyUs';
 
@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero />
-      <Plans />
+      {/* <Plans /> */}
       <Programs />
       <WhyUs />
       {/* <Footer /> */}
