@@ -1,0 +1,10 @@
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background: url('hero-background.jpg') center center no-repeat; */
+    background-size: cover;
+}
+

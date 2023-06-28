@@ -1,0 +1,99 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    transition: all 0.5s ease;
+  }
+  
+  .navbar.mobile {
+    padding: 5px;
+    background-color: transparent;
+  }
+  
+  .navbar.desktop {
+    background-color: black;
+  }
+  
+  .navbar.scrolled {
+    background-color: transparent;
+  }
+  
+  .logo {
+    color: Grey;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links.scrolled {
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-links.scrolled li a {
+    color: yellow;
+    font-size: 12px;
+  }
+  
+  .call-now {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    background-color: red;
+  }
+  
+  .call-now.scrolled {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: transparent;
+    color: yellow;
+  }
+  
+  .menu-icon {
+    right: 10px;
+    position: relative;
+    color: green;
+    cursor: pointer;
+  }
+  
+  .modal {
+    top:0;
+    right: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    width: 66%;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .close {
+    color: white;
+    cursor: pointer;
+    align-self: flex-end;
+  }
+  
