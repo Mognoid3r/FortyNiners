@@ -1,8 +1,9 @@
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
-// import Plans from './components/Plans/Plans';
+import Plans from './components/Plans/Plans';
 import Programs from './components/Programs/Programs';
 import WhyUs from './components/WhyUs/WhyUs';
+import Footer from './components/Footer/Footer';
 
 import './App.css'
 
@@ -12,10 +13,10 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero />
-      {/* <Plans /> */}
       <Programs />
       <WhyUs />
-      {/* <Footer /> */}
+      <Plans />
+      <Footer />
     </div>
   );
 }
