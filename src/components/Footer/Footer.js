@@ -7,11 +7,7 @@ const Footer = () => {
     <div className="Footer-Container">
       <hr />
       <div className="footer">
-        {/* <div className="social-links">
-          <img src={Github} alt=""/>
-          <img src={Instagram} alt=""/>
-          <img src={LinkedIn} alt="" />
-        </div> */}
+       
         <div className="logo-f">
           <img src={Logo} alt="" />
         </div>

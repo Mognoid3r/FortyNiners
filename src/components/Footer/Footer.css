@@ -21,3 +21,8 @@
     gap: 4rem;
 }
 
+.logo-f{
+    width: 10rem;
+    height: 3rem;
+    z-index: 1;
+}

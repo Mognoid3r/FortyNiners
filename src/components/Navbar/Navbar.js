@@ -72,7 +72,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
-
+import Logo from '../../assets/logo.png'
 import './Navbar.css';
 
 const Navbar = () => {
@@ -99,7 +99,10 @@ const Navbar = () => {
 
   return (
     <nav className={`navbar ${isDesktop ? 'desktop' : 'mobile'} ${scrollPosition > 50 ? 'scrolled' : ''}`}>
-      <div className="logo">Logo</div>
+      <div className={`logo-n ${scrollPosition > 50 ? 'scrolled' : ''}`}>
+      <img src={Logo} alt=""/>
+      
+      </div>
       {isDesktop ? (
         <>
           <ul className={`nav-links ${scrollPosition > 50 ? 'scrolled' : ''}`}>
@@ -108,9 +111,12 @@ const Navbar = () => {
             <li><Link to="programs" spy={true} smooth={true} offset={-70} duration={500}>Programs</Link></li>
             <li><Link to="why-us" spy={true} smooth={true} offset={-70} duration={500}>Why Us</Link></li>
           </ul>
+          <button class="btn">
           <a href="tel:123-456-7890" className={`call-now ${scrollPosition > 50 ? 'scrolled' : ''}`}>
             {scrollPosition > 50 ? '@' : 'Call Now'}
           </a>
+          </button>
+          
         </>
       ) : (
         <>
