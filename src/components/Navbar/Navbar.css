@@ -42,6 +42,9 @@
     position: absolute;
     top: 16rem;
     right: 5%;
+    background-color: black;
+    border-radius: 15px;
+    padding: 10px;
   }
   
   .nav-links li a {
@@ -66,14 +69,16 @@
     padding: 5px 10px;
     border-radius: 5px;
     color: black;
+    background-color: transparent;
     text-decoration: none;
+    /* background: url('hero-background.jpg') center center no-repeat; */
   }
   
   .call-now.scrolled {
     position: fixed;
     bottom: 10px;
     right: 10px;
-    background-color: transparent;
+    background-color: orange;
     color: yellow;
   }
   
