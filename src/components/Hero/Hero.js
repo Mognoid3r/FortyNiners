@@ -58,8 +58,12 @@ const Hero = () => {
 
         {/* Hero Buttons */}
         <div className="div hero-buttons">
-          <buttons className="btn">Get Started</buttons>
-          <buttons className="btn">Book Session</buttons>
+          {/* <buttons className="btn"> 
+          <a className="hero-a" href="https://calendly.com/holisticbatman/free-consultation">Free Consult</a>
+          </buttons> */}
+          <buttons className="btn">
+          <a className="hero-a" href="https://calendly.com/holisticbatman/training-session">Book Session</a>
+          </buttons>
         </div>
       </div>
       <div className="right-h">
