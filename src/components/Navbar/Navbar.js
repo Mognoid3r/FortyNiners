@@ -112,8 +112,8 @@ const Navbar = () => {
             <li><Link to="why-us" spy={true} smooth={true} offset={-70} duration={500}>Why Us</Link></li>
           </ul>
           <button class="btn">
-          <a href="tel:123-456-7890" className={`call-now ${scrollPosition > 50 ? 'scrolled' : ''}`}>
-            {scrollPosition > 50 ? '@' : 'Call Now'}
+          <a href="tel:520-906-1694" className={`call-now ${scrollPosition > 50 ? 'scrolled' : ''}`}>
+            {scrollPosition > 50 ? 'Call Now' : 'Call Now'}
           </a>
           </button>
           
